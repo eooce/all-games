@@ -15,6 +15,6 @@
 
 * rust.zip为rust环境使用的。
 
-* muse-bot.zip为ts-bot环境使用的，将run-with-database-url.ts和start.sh文件上传进 /src/scripts/目录后赋权777，run-with-database-url.ts第4行修改订阅端口，不使用订阅功能可忽略，然后即可运行。
+* muse-bot.zip为ts-bot环境使用的，将 /src/scripts/migrate-and-start.ts文件改为migarte-and-start.ts将run-with-database-url.ts和start.sh文件上传进 /src/scripts/目录后赋权777，run-with-database-url.ts第4行修改订阅端口，不使用订阅功能可忽略，然后即可运行。
 
 * 更多游戏持续更新中.......

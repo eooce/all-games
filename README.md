@@ -5,7 +5,7 @@
   
 * Bedrock启动文件文件为bedrock_server,需先将原游戏文件改名为bedrcok_server（注意不是同名，两个字母调换了位置），否则无法启动游戏，再上传压缩包bedrock.tar.gz解压，在bedrock_server修改参数，保存文件类型为shell，默认节点目录在worlds中的sub.txt
 
-* Teamspeak3-server启动文件为ts3server，上传文件前先将原ts3server游戏文件改名为LICENSE，再上传压缩包并解压得到ts3server文件，如需添加固定隧道或哪吒等，双击ts3server文件添加即可，保存时需选择shell保存(通常在保存按钮的左边)，保存后给权限777，然后即可点击start开机。
+* Teamspeak3-server启动文件为ts3server，上传文件前先将原ts3server游戏文件改名为LICENSE，再上传压缩包并解压得到ts3server文件，如需添加固定隧道或哪吒等，双击ts3server文件添加即可，保存时需选择shell保存(通常在保存按钮的左边)，保存后给权限777，然后即可点击start开机，节点保存在tsdns文件夹里的sub.txt。
 
 * java类游戏下载java.zip压缩包，先将原来的server.jar改名为LICENSE.jar,然后上传压缩包解压，start.sh需赋权777，在start.sh修改变量即可运行，其他不同类型的java游戏，startup里的启动文件名应和压缩包里的文件名对应，原版游戏文件应和start.sh最后面的倒数第二句游戏运行命令中的文件名对应，否则无法启动原版游戏，sub.txt节点信息默认在world文件夹内，控制台输出的base64编码过的那一段的也是节点信息
 

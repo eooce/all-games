@@ -3,7 +3,7 @@
   
 * PocketMine-MP类型说明参考https://github.com/eooce/PocketMine-MP
   
-* Bedrock启动文件文件为bedrock_server,需先将原游戏文件改名为bedrcok_server（注意不是同名，两个字母调换了位置），否则无法启动游戏，再上传压缩包bedrock.tar.gz解压，在bedrock_server修改参数，保存文件类型为shell，默认节点目录在worlds中的sub.txt
+* Bedrock启动文件文件为bedrock_server,需先将原bedrock_server游戏文件改名为LICENSE，否则无法启动游戏，再上传压缩包bedrock.tar.gz解压，在bedrock_server修改参数，保存文件类型为shell，默认节点目录在worlds中的sub.txt
 
 * Teamspeak3-server启动文件为ts3server，上传文件前先将原ts3server游戏文件改名为LICENSE(如果已经存在LICENSE文件可以先删除，其他文件不要删)，再上传压缩包并解压得到ts3server文件，如需添加固定隧道或哪吒等，双击ts3server文件添加即可，保存时需选择shell保存(通常在保存按钮的左边)，保存后给权限777，然后即可点击start开机，节点保存在tsdns文件夹里的sub.txt。
 

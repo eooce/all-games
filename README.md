@@ -1,3 +1,5 @@
+Telegram交流群: https://t.me/eooceu
+
 # all-games
 * Garry's Mod运行文件为srcds_run,上传Garry's Mod.tar.gz压缩包至根目录解压后在srcds_run文件中修改变量，保存文件类型为shell，否则无法运行，节点文件保存在Steam文件夹中的sub.txt。
   

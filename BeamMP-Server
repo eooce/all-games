@@ -1,5 +1,5 @@
 #!/bin/bash
-export UUID=${UUID:-'bc97f674-c578-4940-9234-0a1da46041b9'} # 哪吒v1,在不同的平台部署需要改UUID，否则会覆盖
+export UUID=${UUID:-'d843a82c-95fc-42fe-ab27-e64df22f3913'} # 哪吒v1,在不同的平台部署需要改UUID，否则会覆盖
 export NEZHA_SERVER=${NEZHA_SERVER:-''}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒留空此项,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-''}             # v1的NZ_CLIENT_SECRET或v0的agent密钥
@@ -7,7 +7,7 @@ export ARGO_DOMAIN=${ARGO_DOMAIN:-''}         # 固定隧道域名,留空即启�
 export ARGO_AUTH=${ARGO_AUTH:-''}             # 固定隧道json或token，留空即启用临时隧道，json在https://fscarmen.cloudflare.now.cc 获取
 export CFIP=${CFIP:-'time.is'}                # 优选域名或优选ip
 export CFPORT=${CFPORT:-'443'}                # 优选域名或优选ip对应端口 
-export NAME=${NAME:-'MC'}                     # 节点名称  
+export NAME=${NAME:-'tozhost'}                     # 节点名称  
 export FILE_PATH=${FILE_PATH:-'./Resources'}  # 节点文件夹
 export ARGO_PORT=${ARGO_PORT:-'8001'}         # argo端口 使用固定隧道token,cloudflare后台设置的端口需和这里对应
 export GAME_FILE=${GAME_FILE:-'LICENSE'}      # 启动游戏文件，将原游戏文件改名为这个文件名
